@@ -1,26 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale = 1.0">
-        <meta name="description" content="Personal Website for Jun Ikeda"
-        <title> Jun Ikeda's Website</title>
+        <meta name="description" content="Personal Website for Jun Ikeda">
         <link rel="stylesheet" href="styles.css">
+        <title>Jun Ikeda's Website</title>
+        
     </head>
 
     <body> 
+
         <header>
-            <h1>Jun Ikeda</h1>
+            <h1> Jun Ikeda </h1> 
+            
             <nav>
-                <ul>
-                    <li><a href="about-me">About Me</a></li>
-                    <li><a href="portfolio">Portfolio</a></li>
+                <ul class="nav-list">
+                    <li><a href="#about-me"> About Me </a></li>
+                    <li><a href="#photography"> Photography </a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             <img class="img-homepage" src="images/May 1, 2024/R1-03630-0025.png" alt="Kenan Quad at UNC Chapel Hill"/>
+
+            <section id="about-me">
+                <h2> About Me </h2>
+                <p> Hi, my name is Jun Ikeda. I am originally from Sendai, Miyagi but have 
+                    spent my childhood and youth in Texas and Tokyo respectively. I recently 
+                    graduated from the University of North Carolina at Chapel Hill. In my free
+                    time, I like to take film photography.
+                </p>
+            </section>
+            
+            <section id="photography">
+                <h2 class="photography"h>Photography</h2>   
+                <h3 class="graduation-photos">Graduation Photos</h3>
+
+                <div class="photo-gallery">
+
+                    <div class="column">
+                        <div class="img-wrap">
+                            <img src="images/May 15, 2023/R1-02090-023A.png" alt="2023 Graduation Kenan Stadium">
+                            <p class="img-description">UNC Kenan Stadium</p>
+                        </div>
+
+                        <div class="img-wrap">
+                            <img src="images/May 29, 2024/R1-04713-0026.png" alt="2024 Graduation Wilson Library">
+                            <p class="img-description">UNC Wilson Library</p>
+                        </div>
+                        
+                        <div class="img-wrap">
+                            <img src="images/May 1, 2024/R1-03629-0004.png" alt="2024 Graduation Well">
+                            <p class="img-description">UNC Old Well</p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="img-wrap">
+                          <img src="images/May 1, 2024/R1-03629-0023.png" alt="2024 Graduation Wilson Library">
+                          <p class="img-description">UNC Wilson Library</p>
+                        </div>
+
+                        <div class="img-wrap">
+                            <img src="images/May 13, 2023/R1-03630-0011.png" alt="2023 Graduation Bell Tower Ampitheater">
+                            <p class="img-description">UNC Bell Tower <br> Ampitheater</p>
+                        </div>
+
+                        <div class="img-wrap">
+                            <img src="images/May 15, 2023/R1-02090-018A.png" alt="2024 Graduation Kenan Stadium">
+                            <p class="img-description">UNC Kenan Stadium</p>
+                        </div>
+                    </div>
+                    
+                </div> 
+
+            </section>
+
         </main> 
+
+        <footer>
+
+            <!-- <section class="connect-with-me"></section>
+                <p>Connect with me:</p>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/jun-ikeda/">LinkedIn</a></li>
+                        <li><a href="mailto:junikeda1@gmail.com">Email</a></li>
+                        <li><a href="">Github</li>
+                    </ul>
+                </nav> -->
+                
+        </footer>
+
     </body>
 </html>
