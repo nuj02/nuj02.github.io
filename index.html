@@ -6,58 +6,67 @@
         <meta name="viewport" content="width=device-width, initial-scale = 1.0"/>
         <meta name="description" content="Personal Website for Jun Ikeda"/>
 
-        <link rel="stylesheet" href="../css/styles.css"/>
+        <link rel="stylesheet" href="build/css/styles.css"/>
         
         <title>Jun Ikeda's Website</title>
     </head>
 
     <body> 
         <header>
-            <h1 id="nav-heading"> Jun Ikeda </h1> 
-            <nav>
+            <h1 id="header-name">Jun Ikeda</h1>
+            <nav id="nav-bar">
                 <ul id="nav-list">
-                    <li><a href="#about-me"> About Me </a></li>
-                    <li><a href="#photography"> Photography </a></li>
+                    <li id="about-me"><a href="#about-me">About Me</a></li>
+                    <li id="photography"><a href="#photography">Photography</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <!-- <div id="homepage-slideshow">
-                <figure class="slide">
-                    <img class="homepage-img" id="Kenan-Quad" 
-                        src="../images/img-homepage/R1-03630-0025.jpg"
-                        alt="Kenan Quad at UNC Chapel Hill on a foggy day"/>
-                        <figcaption class="location">Chapel Hill, NC</figcaption>
-                        <figcaption class="name-of-place">Kenan Quad</figcaption>
-                </figure> -->
-                <!-- <figure class="slide">
-                    <img class="homepage-img" id="Hokokuji Bamboo Forest"
-                        src="../images/img-homepage/000018.jpg"
-                        alt="Hokokuji Bamboo Forest in Kamakura, Japan"/>
-                        <figcaption class="location">Kanagawa, Japan</figcaption>
-                        <figcaption class="name-of-place">Hokokuji Bamboo Forest</figcaption>
+            <div id="landing-page-slideshow">
+                <figure class="landing-page-slide">
+                    <img class="landing-page-img" id="Kenan-Quad" 
+                    src="src/body/main/landing-page/images/R1-03630-0025.jpg"
+                    alt="Kenan Quad at UNC Chapel Hill on a foggy day"/>
+                    <figcaption>
+                        <span class="location">Chapel Hill, NC</span>
+                        <span class="name-of-place">Kenan Quad</span>
+                    </figcaption>
                 </figure>
-                <figure class="slide">
-                    <img class="homepage-img" id="Angkor Wat"
-                        src="../images/img-homepage/000011.jpg"
-                        alt="Angkor Wat in Krong Siem Reap, Cambodia"/>
-                        <figcaption class="location">Krong Siem Reap, Cambodia</figcaption>
-                        <figcaption class="name-of-place">Angkor Wat</figcaption>
-                </figure>     -->
-            <!-- </div> -->
-
-            <!-- <section id="about-me"> -->
-                <!-- <h2> About Me </h2>
-                <div id="about-me-card">
-
+                <figure class="landing-page-slide">
+                    <img class="landing-page-img" id="Hokokuji Bamboo Forest"
+                        src="src/body/main/landing-page/images/000018.jpg"
+                        alt="Hokokuji Bamboo Forest in Kamakura, Japan"/>
+                        <figcaption>
+                            <span class="location">Kanagawa, Japan</span>
+                            <span class="name-of-place">Hokokuji Bamboo Forest</span>
+                        </figcaption>
+                </figure>
+                <figure class="landing-page-slide">
+                    <img class="landing-page-img" id="Sarah P. Gardens"
+                        src="src/body/main/landing-page/images/IMG_2835.jpg"
+                        alt="Sarah P. Gardens at Duke University during the spring"/>
+                        <figcaption>
+                            <span class="location">Durham, NC</span>
+                            <span class="name-of-place">Sarah P. Gardens</span>
+                        </figcaption>
+                </figure>
+                <div id="menu" >
+                    <a id="prev">&LongLeftArrow;</a>
+                    <a id="next">&LongRightArrow;</a> 
                 </div>
-                <p> Hi, my name is Jun Ikeda. I am originally from Sendai, Miyagi but have 
-                    spent my childhood and youth in Texas and Tokyo respectively. I recently 
-                    graduated from the University of North Carolina at Chapel Hill. In my free
-                    time, I like to take photos with my film camera
-                </p> -->
-            <!-- </section> -->
+                    
+            </div>
+
+            <!-- <section id="about-me">
+                <h2> About Me </h2>
+                <p> Hi, my name is Jun Ikeda. I am originally from Sendai, 
+                    Miyagi but have spent my childhood and youth in Texas and Tokyo 
+                    respectively. I recently graduated from the University of North 
+                    Carolina at Chapel Hill. In my free time, I like to take photos 
+                    with my film camera
+                </p>
+            </section> -->
             
             <!-- <section id="photography">
                 <h2 class="photography"h>Photography</h2>   
@@ -119,6 +128,6 @@
                 
         </footer> -->
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
-        <!-- <script src="../js/script.js"></script> -->
+        <script src="./src/body/main/landing-page/js/landing-page.js"></script>
     </body>
 </html>
