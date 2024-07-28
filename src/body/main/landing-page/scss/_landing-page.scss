@@ -1,0 +1,136 @@
+@use '../../../../utilities/scss/variables';
+
+#landing-page-slideshow {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    overflow: scroll; 
+    justify-content: center;
+
+    .landing-page-slide {
+        position: relative;
+
+        .landing-page-img{
+            width: 100vw;
+        }
+
+        figcaption {
+            background-color: rgba(variables.$highlight-color,0.5);
+            color: variables.$design-color;
+            
+            display: flex;
+            flex-direction: column;
+
+            position: absolute; 
+            bottom: 0px;
+
+            font-size: min(1.5vw,1rem);
+            margin: 1rem;
+            padding: 5px;
+            border-radius: 5px;
+
+            .name {
+                font-size: min(2.5vw, 1.5rem);
+            }
+        }
+    }
+
+    .anim-next-slide {
+        animation: next-slide 3s;
+    }
+
+    .anim-prev-slide {
+        animation: prev-slide 3s;
+    }
+
+    @keyframes next-slide {
+        50% {
+            transform: translateX(-75vw);
+        }
+        to {
+            transform: translateX(-100vw);
+        }
+    }
+
+    @keyframes prev-slide {
+        50% {
+            transform: translateX(75vw);
+        }
+        to {
+            transform: translateX(100vw);
+        }
+    }
+    
+    #menu {
+        display: flex;
+        align-items: center;
+
+        cursor: pointer;
+
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        gap: 5px;
+
+        a {
+            font-size: 30px;
+            color: rgba(variables.$design-color,0.8);
+        }
+
+        a:hover {
+            color: rgba(variables.$highlight-color,0.8);
+        }
+    }
+
+}
+
+
+/* .photo-gallery { 
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.5rem 0.5rem;
+} */
+
+/* .column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+} */
+
+/* .column img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+} */
+
+/* .img-wrap {
+    position: relative;
+} */
+
+/* .img-description {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+
+    background: #D1D8BD;
+    color: #283106;
+    visibility: hidden;
+    opacity: 0;
+
+    transition: opacity .5s, visibility .5s;
+  } */
+  
+  /* .img-wrap:hover .img-description {
+    visibility: visible;
+    opacity: 0.75;
+  } */

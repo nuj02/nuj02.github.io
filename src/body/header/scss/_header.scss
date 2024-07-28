@@ -1,0 +1,44 @@
+@use '../../../utilities/scss/variables';
+
+// SCSS for Header, Navigation Bar
+header {
+    background: transparent;
+    color: variables.$design-color;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+    width: 100%;
+    height: 60px;
+
+    z-index: 2;
+    
+    #header-name {
+        font-size: 36px;
+        margin-left: 1rem;
+    }
+    
+    #nav-bar {
+        margin-right: 1rem;
+
+        #nav-list {
+            font-size: 18px;
+            list-style-type: none;
+            display: flex;
+            gap: 0 1rem;
+            
+            a {
+                color: variables.$design-color;
+                text-decoration: none;
+                padding: 5px;
+                border-radius: 5px;
+            }
+    
+            a:hover {
+                background-color: variables.$highlight-color; 
+            }
+        }
+    }   
+}

@@ -2,89 +2,111 @@
 <html lang="en">
 
     <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0"/>
+        <meta name="description" content="Personal Website for Jun Ikeda"/>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
-        <meta name="description" content="Personal Website for Jun Ikeda">
-        <link rel="stylesheet" href="styles.css">
-        <title>Jun Ikeda's Website</title>
+        <link rel="stylesheet" href="build/css/styles.css"/>
         
+        <title>Jun Ikeda's Website</title>
     </head>
 
     <body> 
-
         <header>
-            <h1> Jun Ikeda </h1> 
-            
-            <nav>
-                <ul class="nav-list">
-                    <li><a href="#about-me"> About Me </a></li>
-                    <li><a href="#photography"> Photography </a></li>
+            <h1 id="header-name">Jun Ikeda</h1>
+            <nav id="nav-bar">
+                <ul id="nav-list">
+                    <li id="about-me"><a href="#about-me">About Me</a></li>
+                    <li id="photography"><a href="#photography">Photography</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <img class="img-homepage" src="images/May 1, 2024/R1-03630-0025.png" alt="Kenan Quad at UNC Chapel Hill"/>
+            <div id="landing-page-slideshow">
+                <figure class="landing-page-slide" id="left">
+                    <img class="landing-page-img" id="Sarah-P-Gardens"
+                        src="src/body/main/landing-page/images/compressed/IMG_2835.jpg"
+                        alt="Sarah P. Gardens at Duke University during the spring"/>
+                        <figcaption>
+                            <span class="city">Durham, NC</span>
+                            <span class="name">Sarah P. Gardens</span>
+                        </figcaption>
+                </figure>
+                <figure class="landing-page-slide" id="center">
+                    <img class="landing-page-img" id="Kenan-Quad" 
+                    src="src/body/main/landing-page/images/compressed/R1-03630-0025.jpg"
+                    alt="Kenan Quad at UNC Chapel Hill on a foggy day"/>
+                    <figcaption>
+                        <span class="city">Chapel Hill, NC</span>
+                        <span class="name">Kenan Quad</span>
+                    </figcaption>
+                </figure>
+                <figure class="landing-page-slide" id="right">
+                    <img class="landing-page-img" id="Hokokuji-Bamboo-Forest"
+                        src="src/body/main/landing-page/images/compressed/000018.jpg"
+                        alt="Hokokuji Bamboo Forest in Kamakura, Japan"/>
+                        <figcaption>
+                            <span class="city">Kanagawa, Japan</span>
+                            <span class="name">Hokokuji Bamboo Forest</span>
+                        </figcaption>
+                </figure>
+                <div id="menu" >
+                    <a id="prev">&LongLeftArrow;</a>
+                    <a id="next">&LongRightArrow;</a> 
+                </div>    
+            </div>
 
             <section id="about-me">
                 <h2> About Me </h2>
-                <p> Hi, my name is Jun Ikeda. I am originally from Sendai, Miyagi but have 
-                    spent my childhood and youth in Texas and Tokyo respectively. I recently 
-                    graduated from the University of North Carolina at Chapel Hill. In my free
-                    time, I like to take film photography.
-                </p>
+                    <div id="about-me-container">
+                        <div id="headshot-crop">
+                            <img id="headshot"
+                            src="src/body/main/about-me/images/compress/IMG_7664.jpg"
+                            alt="Head shot taken in front of a tree"/>
+                        </div>
+                        <div id="about-me-excerpts">
+                            <section>
+                                <h3>Background:</h3>
+                                <p>
+                                    Hi, my name is Jun. I am originally from Sendai,
+                                    Miyagi of the northeastern region of Japan,
+                                    but moved to Texas when I was two years old.
+                                    I moved back to Tokyo after 8 years and lived there 
+                                    until I came back to the US for my undergrad.
+                                </p>
+                            </section>
+                            <section>
+                                <h3>Education:</h3>
+                                <h4>University of North Carolina at Chapel Hill (2020-2024)</h4>
+                                    <ul>
+                                        <li>B.S. Biomedical Engineering</li>
+                                        <li>B.S. Mathematics—Applied Option</li>
+                                        <li>Physics Minor</li>
+                                    </ul>
+                            </section>
+                            <section>
+                              <h3>Hobbies</h3>
+                                <p>   
+                                    In my free time, I like to take photos with my film camera and cook.
+                                </p>  
+                            </section>
+                        </div>
+                    </div>
             </section>
             
             <section id="photography">
                 <h2 class="photography"h>Photography</h2>   
-                <h3 class="graduation-photos">Graduation Photos</h3>
+                    <div class="photo-gallery">
 
-                <div class="photo-gallery">
-
-                    <div class="column">
-                        <div class="img-wrap">
-                            <img src="images/May 15, 2023/R1-02090-023A.png" alt="2023 Graduation Kenan Stadium">
-                            <p class="img-description">UNC Kenan Stadium</p>
-                        </div>
-
-                        <div class="img-wrap">
-                            <img src="images/May 29, 2024/R1-04713-0026.png" alt="2024 Graduation Wilson Library">
-                            <p class="img-description">UNC Wilson Library</p>
-                        </div>
-                        
-                        <div class="img-wrap">
-                            <img src="images/May 1, 2024/R1-03629-0004.png" alt="2024 Graduation Well">
-                            <p class="img-description">UNC Old Well</p>
-                        </div>
                     </div>
-
-                    <div class="column">
-                        <div class="img-wrap">
-                          <img src="images/May 1, 2024/R1-03629-0023.png" alt="2024 Graduation Wilson Library">
-                          <p class="img-description">UNC Wilson Library</p>
-                        </div>
-
-                        <div class="img-wrap">
-                            <img src="images/May 13, 2023/R1-03630-0011.png" alt="2023 Graduation Bell Tower Ampitheater">
-                            <p class="img-description">UNC Bell Tower <br> Ampitheater</p>
-                        </div>
-
-                        <div class="img-wrap">
-                            <img src="images/May 15, 2023/R1-02090-018A.png" alt="2024 Graduation Kenan Stadium">
-                            <p class="img-description">UNC Kenan Stadium</p>
-                        </div>
-                    </div>
-                    
-                </div> 
-
             </section>
 
         </main> 
 
-        <footer>
+        <!-- <footer>
 
-            <!-- <section class="connect-with-me"></section>
+            <section class="connect-with-me"></section>
                 <p>Connect with me:</p>
                 <nav>
                     <ul>
@@ -92,9 +114,10 @@
                         <li><a href="mailto:junikeda1@gmail.com">Email</a></li>
                         <li><a href="">Github</li>
                     </ul>
-                </nav> -->
+                </nav>
                 
-        </footer>
-
+        </footer> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+        <script src="./src/body/main/landing-page/js/landing-page.js"></script>
     </body>
 </html>
