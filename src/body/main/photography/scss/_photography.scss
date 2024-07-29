@@ -3,5 +3,24 @@
 #photography {
     #photo-gallery {
         display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0.5rem;
+        gap: 5px;
+
+        .photo-wrapper {
+            aspect-ratio: 1;
+            overflow: hidden;
+            object-fit: cover;
+            position: relative;
+
+            .landscape {
+                height: 100%;
+            }
+
+            .portrait {
+                width: 100%;
+            }
+        }
+        
     }
 }
