@@ -148,7 +148,19 @@
                 </nav>
         </footer>
         
-        <script src="./src/body/main/landing-page/js/landing-page.js"></script>
-        <script src="./src/body/main/photography/js/photography.js"></script>
+        <script>
+            function loadScript(src) {
+                // creates a <script> tag and append it to the page
+                // this causes the script with given src to start loading and run when complete
+                let script = document.createElement('script');
+                script.src = src;
+                document.head.append(script);
+            }
+            
+            // landing page script
+            loadScript("./src/body/main/landing-page/js/landing-page.js")
+            // photography script
+            loadScript("./src/body/main/photography/js/photography.js")
+        </script>
     </body>
 </html>
