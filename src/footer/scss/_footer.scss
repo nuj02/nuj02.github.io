@@ -1,0 +1,43 @@
+@use '../../utilities/scss/variables';
+
+
+footer {
+    margin: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .icon:first-of-type {
+        width: 30px;
+        height: 30px;
+    }
+
+    #base {
+        display: flex;
+    }
+
+    #connect-with-me {
+        
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            gap: 25px;
+    
+            li {
+                border: 3px solid variables.$highlight-color;
+                padding: 10px;
+                border-radius: 50%;
+
+                a {
+                    color: variables.$text-color;
+                    text-decoration: none;
+
+                    svg {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }    
+}
