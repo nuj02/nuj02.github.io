@@ -7,6 +7,10 @@
         <meta name="description" content="Personal Website for Jun Ikeda"/>
 
         <link rel="stylesheet" href="build/css/styles.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         
         <title>Jun Ikeda's Website</title>
     </head>
@@ -58,57 +62,57 @@
             </section>
 
             <section id="about-me">
+
                 <h2> About Me </h2>
-                    <div id="about-me-container">
-                        <div id="headshot-crop">
+                
+                    <div id="profile">
+                        <div id="headshot-wrapper">
                             <img id="headshot"
                             src="src/body/main/about-me/images/compress/IMG_7664.jpg"
                             alt="Head shot taken in front of a tree"/>
                         </div>
-                        <div id="about-me-excerpts">
-                            <section>
-                                <h3>Background:</h3>
-                                <p>
-                                    Hi, my name is Jun. I am originally from Sendai,
-                                    Miyagi of the northeastern region of Japan,
-                                    but moved to Texas when I was two years old.
-                                    I moved back to Tokyo after 8 years and lived there 
-                                    until I came back to the US for my undergrad.
-                                </p>
-                            </section>
-                            <section>
-                                <h3>Education:</h3>
-                                    <h4>University of North Carolina at Chapel Hill</h4>
-                                        <h5>(2020-2024)</h5>
-                                            <ul>
-                                                <li>B.S. Biomedical Engineering</li>
-                                                <li>B.S. Mathematics—Applied Option</li>
-                                                <li>Physics Minor</li>
-                                            </ul>
-                            </section>
-                            <section>
-                              <h3>Hobbies</h3>
-                                <p>   
-                                    In my free time, I like to take photos with my film camera and cook.
-                                </p>  
-                            </section>
-                        </div>
+
+                        <ol id="timeline">
+                            <li class="timeline-item">
+                                <img class="timeline-icon"
+                                src="https://privacy.unc.edu/wp-content/uploads/sites/163/2014/09/225px-UNC_Chapel_Hill_seal_svg.png"
+                                alt="UNC Chapel Hill University Seal">
+                                <div class="timeline-info">
+                                    <b> 
+                                        UNC Chapel Hill (2020-2024)
+                                    </b>
+                                    <ul>
+                                        <li>B.S. Biomedical Engineering</li>
+                                        <li>B.S. Mathematics—Applied Option</li>
+                                        <li>Physics Minor</li>
+                                    </ul>    
+                                </div>   
+                            </li>
+                        </ol>
                     </div>
+
             </section>
             
             <section id="photography">
+
                 <h2>Photography</h2>  
-                    <div id="photo-gallery">
-                        <div class="photo-wrapper"></div>
-                        <div class="photo-wrapper"></div>
-                        <div class="photo-wrapper"></div>
-                        <div class="photo-wrapper"></div>
-                        <div class="photo-wrapper"></div>
-                        <div class="photo-wrapper"></div>
-                        <div class="photo-wrapper"></div>
-                        <div class="photo-wrapper"></div>
-                        <div class="photo-wrapper"></div>
-                    </div>
+
+                    <div id="modal"></div>
+                    
+                    <h3>Graduation Photos</h3>
+                        <div id="graduation" class="photo-gallery">
+                            <div class="photo-wrapper"></div>
+                            <div class="photo-wrapper"></div>
+                            <div class="photo-wrapper"></div>
+                            <div class="photo-wrapper"></div>
+                            <div class="photo-wrapper"></div>
+                            <div class="photo-wrapper"></div>
+                            <div class="photo-wrapper"></div>
+                            <div class="photo-wrapper"></div>
+                            <div class="photo-wrapper"></div>
+                        </div>
+
+                    <h3>Chapel Hill at Night</h3>
             </section>
         </main> 
 

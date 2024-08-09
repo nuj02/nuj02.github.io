@@ -1,23 +1,82 @@
 @use '../../../../utilities/scss/variables';
 
-#photography {
-    #photo-gallery {
+section#photography {
+    
+    div#modal {
+        margin: 0 -10vw 0 -10vw;
+        width: 100vw;
+        height: 100vh;
+
+        display: none;
+        justify-content: center;
+        align-items: center;
+        
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        background-color: rgba(0,0,0,0.4);
+        gap: 5px;
+
+        figure {
+            &.landscape {
+                img {
+                    width: 80vw;
+                }
+                figcaption {
+                    ul {
+                        list-style-type: none;
+                        display: flex;
+                        justify-content: space-between; 
+                        li {
+                            padding: 5px;
+                            border-radius: 5px;
+                            background-color: variables.$highlight-color;
+                        } 
+                    }
+                }
+            }
+
+            &.portrait {
+                img {
+                    height: 80vh;
+                }
+                figcaption {
+                    ul {
+                        list-style-type: none;
+                        display: flex;
+                        justify-content: space-between; 
+                        li {
+                            padding: 5px;
+                            border-radius: 5px;
+                            background-color: variables.$highlight-color;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+
+    div.photo-gallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin: 0.5rem;
         gap: 5px;
 
-        .photo-wrapper {
+        div.photo-wrapper {
             aspect-ratio: 1;
             overflow: hidden;
             object-fit: cover;
             position: relative;
 
-            .landscape {
+            &:hover {
+                opacity: 0.7;
+            }
+
+            img.landscape {
                 height: 100%;
             }
 
-            .portrait {
+            img.portrait {
                 width: 100%;
             }
         }

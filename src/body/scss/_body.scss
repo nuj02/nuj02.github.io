@@ -1,19 +1,15 @@
 @use '../../utilities/scss/variables';
 
-@font-face {
-    font-family: 'Shippori Mincho B1', serif;
-    src: url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
-    font-weight: 400;
-    font-style: normal;
-}
-
 body {
     background-color: variables.$background-color;
     color: variables.$text-color;
+    width: 100vw;
+    font-family: "Montserrat", Helvetica, sans-serif;
 }
 
 h2 { 
     margin: 0.5rem 1rem;
+    text-align: center;
 }
 
 p, h3, h4, h5 { 
