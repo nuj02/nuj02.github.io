@@ -63,6 +63,9 @@ main section {
   margin: 5% 0 5% 0;
   padding: 0 10% 0 10%;
 }
+main section:first-of-type {
+  margin-top: 0;
+}
 
 #landing-page-slideshow {
   width: 100vw;
