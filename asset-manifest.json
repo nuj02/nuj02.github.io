@@ -1,15 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.6712f422.css",
-    "main.js": "/static/js/main.2adf7a96.js",
+    "main.css": "/static/css/main.e48f25f4.css",
+    "main.js": "/static/js/main.43791db0.js",
     "static/js/453.66ab9933.chunk.js": "/static/js/453.66ab9933.chunk.js",
+    "static/media/genome.jpg": "/static/media/genome.3c2c2c73777a333e487c.jpg",
+    "static/media/lamp-post.jpg": "/static/media/lamp-post.0599d8a7883dd514ce4b.jpg",
+    "static/media/old-well.jpg": "/static/media/old-well.a9891996a1e896fd24b4.jpg",
+    "static/media/kenan-quad.jpg": "/static/media/kenan-quad.0767c7c0628079f601e9.jpg",
+    "static/media/smith-center.jpg": "/static/media/smith-center.238209708f44ea678e22.jpg",
+    "static/media/carmichael-stadium.jpg": "/static/media/carmichael-stadium.801d8772ccec162d51ea.jpg",
+    "static/media/bell-tower.jpg": "/static/media/bell-tower.4ebaa16cf716f58c511e.jpg",
+    "static/media/sarah-p-gardens.jpg": "/static/media/sarah-p-gardens.3dd6f57af4aca49099d1.jpg",
+    "static/media/kenan-stadium-stands.jpg": "/static/media/kenan-stadium-stands.691338acedfbf814ad39.jpg",
+    "static/media/kenan-stadium-field.jpg": "/static/media/kenan-stadium-field.6579bcd03227bc01e958.jpg",
+    "static/media/wilson-library-2.jpg": "/static/media/wilson-library-2.7221cb9c8a6aeec3aca9.jpg",
+    "static/media/wilson-library-1.jpg": "/static/media/wilson-library-1.407b39210a67752c426c.jpg",
+    "static/media/sop.jpg": "/static/media/sop.b7ff25cae0bf74318cff.jpg",
+    "static/media/the-old-well.jpg": "/static/media/the-old-well.6ac64579eb2386c8f8f2.jpg",
+    "static/media/hokokuji.jpg": "/static/media/hokokuji.8b70f62c194ffef99a2e.jpg",
+    "static/media/prof-pic.jpg": "/static/media/prof-pic.77df3b6d90e9f87c46ff.jpg",
     "index.html": "/index.html",
-    "main.6712f422.css.map": "/static/css/main.6712f422.css.map",
-    "main.2adf7a96.js.map": "/static/js/main.2adf7a96.js.map",
+    "main.e48f25f4.css.map": "/static/css/main.e48f25f4.css.map",
+    "main.43791db0.js.map": "/static/js/main.43791db0.js.map",
     "453.66ab9933.chunk.js.map": "/static/js/453.66ab9933.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6712f422.css",
-    "static/js/main.2adf7a96.js"
+    "static/css/main.e48f25f4.css",
+    "static/js/main.43791db0.js"
   ]
 }
