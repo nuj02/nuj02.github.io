@@ -1,0 +1,72 @@
+@use '../../utilities/variables';
+
+header#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+
+    h1#nav-head {
+        margin: 2rem 0;
+    }
+
+    nav#nav-bar {
+        ol {
+            padding: 0;
+            list-style-type: none;
+
+            &:last-of-type {
+                margin-top: 1rem;
+                color: variables.$silver-lake-blue;
+            }
+            
+            &#sections{
+                li:first-of-type {
+                    margin-bottom: 1rem;
+                }
+            }
+
+            li {
+
+                &:hover {
+                    color: rgba(variables.$silver-lake-blue,0.5);
+                }
+
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+div#canvas {
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px 0px;
+    gap: 1rem;
+
+    figure {
+
+        img {
+            &.landscape {
+                width: 1000px;
+            }
+
+            &.portrait {
+                height: 900px;
+            }
+        }
+
+        figcaption {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
