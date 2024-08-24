@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e48f25f4.css",
-    "main.js": "/static/js/main.43791db0.js",
+    "main.css": "/static/css/main.0df7f145.css",
+    "main.js": "/static/js/main.24d70c38.js",
     "static/js/453.66ab9933.chunk.js": "/static/js/453.66ab9933.chunk.js",
     "static/media/genome.jpg": "/static/media/genome.3c2c2c73777a333e487c.jpg",
     "static/media/lamp-post.jpg": "/static/media/lamp-post.0599d8a7883dd514ce4b.jpg",
     "static/media/old-well.jpg": "/static/media/old-well.a9891996a1e896fd24b4.jpg",
     "static/media/kenan-quad.jpg": "/static/media/kenan-quad.0767c7c0628079f601e9.jpg",
     "static/media/smith-center.jpg": "/static/media/smith-center.238209708f44ea678e22.jpg",
+    "static/media/tokyo-tower.jpg": "/static/media/tokyo-tower.3ac31d3e52f5e58ad203.jpg",
     "static/media/carmichael-stadium.jpg": "/static/media/carmichael-stadium.801d8772ccec162d51ea.jpg",
     "static/media/bell-tower.jpg": "/static/media/bell-tower.4ebaa16cf716f58c511e.jpg",
     "static/media/sarah-p-gardens.jpg": "/static/media/sarah-p-gardens.3dd6f57af4aca49099d1.jpg",
@@ -20,12 +21,12 @@
     "static/media/hokokuji.jpg": "/static/media/hokokuji.8b70f62c194ffef99a2e.jpg",
     "static/media/prof-pic.jpg": "/static/media/prof-pic.77df3b6d90e9f87c46ff.jpg",
     "index.html": "/index.html",
-    "main.e48f25f4.css.map": "/static/css/main.e48f25f4.css.map",
-    "main.43791db0.js.map": "/static/js/main.43791db0.js.map",
+    "main.0df7f145.css.map": "/static/css/main.0df7f145.css.map",
+    "main.24d70c38.js.map": "/static/js/main.24d70c38.js.map",
     "453.66ab9933.chunk.js.map": "/static/js/453.66ab9933.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e48f25f4.css",
-    "static/js/main.43791db0.js"
+    "static/css/main.0df7f145.css",
+    "static/js/main.24d70c38.js"
   ]
 }
