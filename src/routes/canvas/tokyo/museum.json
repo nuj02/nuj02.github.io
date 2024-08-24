@@ -4,7 +4,7 @@
             "className" : "portrait",
             "src" : "./tokyo-tower.jpg",
             "alt" : "Tokyo Tower",
-            "city" : "Minato, Tower",
+            "city" : "Minato, Tokyo",
             "location": "Tokyo Tower",
             "season": "Winter"
         }

@@ -1,9 +1,11 @@
 import './root.scss'
 import { Link, Outlet} from 'react-router-dom'
+import ScrollToTop from './scroll'
 
 function Root() {
     return (
         <>
+            <ScrollToTop/>
             <header id="sidebar">
                 <h1 id="nav-head" lang="ja">池田純</h1>
                 <nav id="nav-bar">
