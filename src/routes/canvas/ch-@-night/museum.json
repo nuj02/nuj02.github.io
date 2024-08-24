@@ -1,0 +1,44 @@
+{
+    "gallery" : [
+        {
+            "className" : "portrait",
+            "src" : "./bell-tower.jpg",
+            "alt" : "Bell Tower at Night",
+            "city" : "Chapel Hill, NC",
+            "location": "Bell Tower",
+            "season": "Winter"
+        },
+        {
+            "className" : "portrait",
+            "src" : "./carmichael-stadium.jpg",
+            "alt" : "Carmichael Stadium at Night",
+            "city" : "Chapel Hill, NC",
+            "location": "Carmichael Stadium",
+            "season": "Winter"
+        },
+        {
+            "className" : "portrait",
+            "src" : "./lamp-post.jpg",
+            "alt" : "Lamp Post outside of the Connor Community",
+            "city" : "Chapel Hill, NC",
+            "location" : "Winston Hall",
+            "season" : "Winter"
+        },
+        {
+            "className" : "portrait",
+            "src" : "./old-well.jpg",
+            "alt" : "The Old Well on a rainy day at night",
+            "city" : "Chapel Hill, NC",
+            "location" : "The Old Well",
+            "season" : "Winter"
+        },
+        {
+            "className" : "portrait",
+            "src" : "./smith-center.jpg",
+            "alt" : "Game Night at Smith Center",
+            "city" : "Chapel Hill, NC",
+            "location" : "Dean E. Smith Center",
+            "season" : "Winter"
+        }
+    ]
+}

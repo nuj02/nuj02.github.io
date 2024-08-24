@@ -17,6 +17,9 @@ function Root() {
                         <li>
                             <Link to="ch-at-night">Chapel Hill @ Night</Link>
                         </li>
+                        <li>
+                            <Link to="tokyo">Tokyo</Link>
+                        </li>
                     </ol>
                     <ol>
                         <li>

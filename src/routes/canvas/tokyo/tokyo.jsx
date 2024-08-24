@@ -3,7 +3,7 @@ import museum from "./museum.json";
 
 const images = require.context('./images/compressed', true)
 
-export default function ChapelHill() {
+export default function Tokyo() {
     return ( 
         <> 
             {
