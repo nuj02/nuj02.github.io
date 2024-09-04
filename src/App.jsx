@@ -32,12 +32,12 @@ const router = createHashRouter([
         element: <ChapelHill />
       },
       {
-        path: "about",
-        element: <About />
-      },
-      {
         path: "tokyo",
         element: <Tokyo />
+      },
+      {
+        path: "about",
+        element: <About />
       }
     ]
   },

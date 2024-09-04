@@ -9,7 +9,7 @@ function Root() {
             <header id="sidebar">
                 <h1 id="nav-head" lang="ja">池田純</h1>
                 <nav id="nav-bar">
-                    <ol id="sections">
+                    <ol id="photography">
                         <li>
                             <Link to="/">green</Link>
                         </li>
@@ -23,7 +23,12 @@ function Root() {
                             <Link to="tokyo">Tokyo</Link>
                         </li>
                     </ol>
-                    <ol>
+                    <ol id="projects">
+                        <li>
+                            <Link to="https://nuj02.github.io/MNIST-Playground/">MNIST Playground</Link>
+                        </li>
+                    </ol>
+                    <ol id="contact">
                         <li>
                             <Link to="about">About</Link>
                         </li>

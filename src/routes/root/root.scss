@@ -18,16 +18,20 @@ header#sidebar {
         ol {
             padding: 0;
             list-style-type: none;
-
-            &:last-of-type {
-                margin-top: 1rem;
-                color: variables.$silver-lake-blue;
-            }
             
-            &#sections{
+            &#photography{
                 li:first-of-type {
                     margin-bottom: 1rem;
                 }
+            }
+
+            &#projects {
+                margin-top: 1rem;
+            }
+
+            &#contact {
+                margin-top: 1rem;
+                color: variables.$silver-lake-blue;
             }
 
             li {
