@@ -1,32 +1,36 @@
 {
   "files": {
     "main.css": "/static/css/main.4ce3e01a.css",
-    "main.js": "/static/js/main.b716c688.js",
+    "main.js": "/static/js/main.d9a1c9ae.js",
     "static/js/453.66ab9933.chunk.js": "/static/js/453.66ab9933.chunk.js",
     "static/media/genome.jpg": "/static/media/genome.3c2c2c73777a333e487c.jpg",
     "static/media/lamp-post.jpg": "/static/media/lamp-post.0599d8a7883dd514ce4b.jpg",
+    "static/media/tokyo-tower-2.jpeg": "/static/media/tokyo-tower-2.42fcb8299e759d8fe5d8.jpeg",
     "static/media/old-well.jpg": "/static/media/old-well.a9891996a1e896fd24b4.jpg",
     "static/media/kenan-quad.jpg": "/static/media/kenan-quad.0767c7c0628079f601e9.jpg",
     "static/media/smith-center.jpg": "/static/media/smith-center.238209708f44ea678e22.jpg",
-    "static/media/tokyo-tower.jpg": "/static/media/tokyo-tower.3ac31d3e52f5e58ad203.jpg",
+    "static/media/tokyo-tower-1.jpeg": "/static/media/tokyo-tower-1.3ac31d3e52f5e58ad203.jpeg",
     "static/media/carmichael-stadium.jpg": "/static/media/carmichael-stadium.801d8772ccec162d51ea.jpg",
     "static/media/bell-tower.jpg": "/static/media/bell-tower.4ebaa16cf716f58c511e.jpg",
+    "static/media/mt-takao.jpeg": "/static/media/mt-takao.6d100458d08ed6845467.jpeg",
     "static/media/sarah-p-gardens.jpg": "/static/media/sarah-p-gardens.3dd6f57af4aca49099d1.jpg",
     "static/media/kenan-stadium-stands.jpg": "/static/media/kenan-stadium-stands.691338acedfbf814ad39.jpg",
+    "static/media/showa-kinen-kouen.jpeg": "/static/media/showa-kinen-kouen.f101621de27a487c32e0.jpeg",
     "static/media/kenan-stadium-field.jpg": "/static/media/kenan-stadium-field.6579bcd03227bc01e958.jpg",
     "static/media/wilson-library-2.jpg": "/static/media/wilson-library-2.7221cb9c8a6aeec3aca9.jpg",
     "static/media/wilson-library-1.jpg": "/static/media/wilson-library-1.407b39210a67752c426c.jpg",
     "static/media/sop.jpg": "/static/media/sop.b7ff25cae0bf74318cff.jpg",
     "static/media/the-old-well.jpg": "/static/media/the-old-well.6ac64579eb2386c8f8f2.jpg",
     "static/media/hokokuji.jpg": "/static/media/hokokuji.8b70f62c194ffef99a2e.jpg",
+    "static/media/yomiuri.jpg": "/static/media/yomiuri.152035a5f52f6e4c6005.jpg",
     "static/media/prof-pic.jpg": "/static/media/prof-pic.77df3b6d90e9f87c46ff.jpg",
     "index.html": "/index.html",
     "main.4ce3e01a.css.map": "/static/css/main.4ce3e01a.css.map",
-    "main.b716c688.js.map": "/static/js/main.b716c688.js.map",
+    "main.d9a1c9ae.js.map": "/static/js/main.d9a1c9ae.js.map",
     "453.66ab9933.chunk.js.map": "/static/js/453.66ab9933.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ce3e01a.css",
-    "static/js/main.b716c688.js"
+    "static/js/main.d9a1c9ae.js"
   ]
 }
