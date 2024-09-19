@@ -1,18 +1,16 @@
-import './App.scss';
-
 import { 
   createHashRouter,
   RouterProvider
 } from 'react-router-dom';
 
-import Root from './routes/root/root';
+import Root from './components/root/root';
 
-import Green from './routes/canvas/green/green'
-import GradPhotos from './routes/canvas/graduation-photos/grad-photos';
-import ChapelHill from './routes/canvas/ch-@-night/ch';
-import Tokyo from './routes/canvas/tokyo/tokyo';
+import Green from './components/canvas/green/green'
+import GradPhotos from './components/canvas/graduation-photos/grad-photos';
+import ChapelHill from './components/canvas/ch-@-night/ch';
+import Tokyo from './components/canvas/tokyo/tokyo';
 
-import About from './routes/canvas/about/About';
+import About from './components/canvas/about/About';
 
 const router = createHashRouter([
   {
