@@ -1,0 +1,44 @@
+{
+    "gallery" : [
+        {
+            "className" : "portrait",
+            "src" : "./tokyo-tower-1.jpeg",
+            "alt" : "Tokyo Tower",
+            "city" : "Minato, Tokyo",
+            "location": "Tokyo Tower",
+            "season": "Winter"
+        },
+        {
+            "className" : "landscape",
+            "src" : "./showa-kinen-kouen.jpeg",
+            "alt" : "Showa Kinen Park",
+            "city" : "Tachikawa, Tokyo",
+            "location": "Showa Kinen Park",
+            "season": "Spring"
+        },
+        {
+            "className" : "portrait",
+            "src" : "./yomiuri.jpg",
+            "alt" : "Yomiuri Land",
+            "city" : "Inagi, Tokyo",
+            "location": "Yomiuri Land",
+            "season": "Winter"
+        },
+        {
+            "className" : "landscape",
+            "src" : "./mt-takao.jpeg",
+            "alt" : "Mt. Takao",
+            "city" : "Takao, Tokyo",
+            "location": "Mt. Takao",
+            "season": "Winter"
+        },
+        {
+            "className" : "portrait",
+            "src" : "./tokyo-tower-2.jpeg",
+            "alt" : "Tokyo Tower",
+            "city" : "Minato, Tokyo",
+            "location": "Tokyo Tower",
+            "season": "Winter"
+        }
+    ]
+}
