@@ -10,6 +10,8 @@ import GradPhotos from './components/canvas/graduation-photos/grad-photos';
 import ChapelHill from './components/canvas/ch-@-night/ch';
 import Tokyo from './components/canvas/tokyo/tokyo';
 
+import PML from './components/canvas/pml-vis/pml-vis';
+
 import About from './components/canvas/about/About';
 
 const router = createHashRouter([
@@ -32,6 +34,10 @@ const router = createHashRouter([
       {
         path: "tokyo",
         element: <Tokyo />
+      },
+      {
+        path: "PML-Vis",
+        element: <PML />
       },
       {
         path: "about",

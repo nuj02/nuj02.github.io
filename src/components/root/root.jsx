@@ -25,7 +25,16 @@ function Root() {
                     </ol>
                     <ol class='list-none my-4 items-center pl-4'>
                         <li class='hover:text-cerulean'>
+                            <Link to="https://nuj02.github.io/Ultrasound-Filtering/" target="_blank">Ultrasound Spatiotemporal Filtering</Link>
+                        </li>
+                        <li class='hover:text-cerulean'>
+                            <Link to="https://nuj02.github.io/2024-ASA-Duke-DataFest/" target="_blank">2024 ASA DataFest</Link>
+                        </li>
+                        <li class='hover:text-cerulean'>
                             <Link to="https://nuj02.github.io/MNIST-Playground/" target="_blank">MNIST Playground</Link>
+                        </li>
+                        <li class='hover:text-cerulean'>
+                            <Link to="PML-Vis">2nd PML Visualization Competition</Link>
                         </li>
                     </ol>
                     <ol class='list-none my-4 items-center pl-4'>
@@ -41,7 +50,7 @@ function Root() {
                     </ol>
                 </nav>
             </header>
-            <div class='flex flex-col grow items-center gap-y-0.5'>
+            <div class='flex flex-col grow items-center gap-y-0.5 mt-4'>
               <Outlet />  
             </div>
         </>
